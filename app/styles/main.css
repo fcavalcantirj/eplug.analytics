@@ -1,0 +1,86 @@
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600italic,600,700,700italic,900|Ruda:400,700,900);
+
+
+/* palettes
+
+
+
+*/
+
+body {
+    color: #053833;
+}
+
+
+.cf-nav {
+    width: 42px;
+}
+
+.cf-nav .cf-nav-toggle.menu-icon {
+    display: block;
+    margin: 0;
+}
+
+.menu-icon .cf-nav-max {
+    margin-left: 42px;
+}
+
+.cf-nav .cf-nav-min {
+    width: 42px;
+    font-size: 18px;
+}
+
+.cf-nav .cf-nav-max {
+    left: auto;
+    padding: 12px 10px 8px 0;
+    color: #666;
+}
+
+.cf-container {
+    padding: 0 24px 0 60px;
+}
+
+
+.metric {
+    font-size: 9em;
+}
+
+.metric-small {
+    text-align: right;
+}
+
+.inactive-plugs .large, .inactive-nodes .large {
+    font-size: 3em;
+}
+
+.logo-slogan {
+    margin: 2em 1em 3em;
+    max-height: 8em;
+}
+
+.logo-slogan img {
+    max-height: 100%;
+}
+
+.metric.monthly-energy, .metric.monthly-power {
+    font-size: 5em;
+}
+
+.metric.monthly-power {
+    text-align: right;
+}
+
+
+.bubble-chart {
+    vertical-align: middle;
+    text-align: center;
+    height: 80%;
+}
+
+.bubble-chart img {
+    height: 60%;
+    margin: 10%;
+    width: auto;
+}
